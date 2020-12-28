@@ -82,6 +82,7 @@ pub struct LaunchOptions<'a> {
     /// [def_args]: https://github.com/atroche/rust-headless-chrome/blob/master/src/browser/process.rs#L119
     default_args: bool,
     #[builder(default = "Vec::new()")]
+
     /// Extra args to add to chrome
     extra_args: Vec<String>,
 
